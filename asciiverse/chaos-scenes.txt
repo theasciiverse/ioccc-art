@@ -1,0 +1,7 @@
+# ioccc-chaos's objects, in the order they turn, and their seconds
+# (asciiverse/embed.sh); all five are the author's data files
+1998/chaos/cube.data 15
+1998/chaos/pyramid.data 15
+1998/chaos/desk.data 20
+1998/chaos/xwing.data 25
+1998/chaos/ioccc.data 25

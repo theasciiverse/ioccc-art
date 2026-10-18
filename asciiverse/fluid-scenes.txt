@@ -1,0 +1,21 @@
+# ascii-fluid's scenes, in the order they play, and their seconds
+# (asciiverse/embed.sh), set from how long each stays lively; the
+# entry's own source is a scene too
+2012/endoh1/endoh1.c 20
+2012/endoh1/logo.txt 12
+2012/endoh1/column.txt 20
+2012/endoh1/pour-out.txt 30
+2012/endoh1/tanada.txt 30
+2012/endoh1/clock.txt 45
+2012/endoh1/fountain.txt 30
+2012/endoh1/funnel.txt 30
+2012/endoh1/dripping-pan.txt 30
+2012/endoh1/glass-half-empty.txt 20
+2012/endoh1/leidenfrost.txt 25
+2012/endoh1/evaporation.txt 25
+2012/endoh1/corners.txt 20
+2012/endoh1/column2.txt 20
+2012/endoh1/column3.txt 20
+2012/endoh1/funnel2.txt 25
+2012/endoh1/funnel3.txt 25
+2012/endoh1/flat.txt 12

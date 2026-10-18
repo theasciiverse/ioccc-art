@@ -1,0 +1,42 @@
+IOCCC art for the Asciiverse catalog: ASCII Fluid (ascii-fluid) and
+Chaos (ioccc-chaos)
+
+These programs are made from two winning entries of the International
+Obfuscated C Code Contest (IOCCC, https://www.ioccc.org/):
+
+- 2012/endoh1, "Most complex ASCII fluid" (honorable mention), by
+  Yusuke Endoh (https://github.com/mame/), with the author's colour
+  version and the scene files that come with the entry (clock.txt by
+  HAMANO Tsukasa, the others by the author and the IOCCC judges).
+  https://www.ioccc.org/2012/endoh1/index.html
+  Copyright (c) 2012-2026 by Landon Curt Noll. Some Rights Reserved.
+
+- 1998/chaos, "Best object orientation", by Alan De Smet
+  (http://www.highprogrammer.com/alan/), with its data files.
+  https://www.ioccc.org/1998/chaos/index.html
+  Copyright (c) 1998-2024 by Landon Curt Noll. Some Rights Reserved.
+
+Both are licensed by Landon Curt Noll under the Creative Commons
+Attribution-ShareAlike 4.0 International licence (CC BY-SA 4.0):
+https://creativecommons.org/licenses/by-sa/4.0/
+The legal code is in LICENSE, and the IOCCC's own summary is at
+https://www.ioccc.org/license.html
+
+The material is offered as-is and as-available, without warranties of
+any kind (CC BY-SA 4.0, section 5).
+
+Changes made by Asciiverse (2026): the entries' sources are compiled as
+the IOCCC publishes them (taken from github.com/ioccc-src/winner at
+commit 9142d5f, 2026-10-07), but each is built as a function inside a
+launcher of ours, launcher/, which runs it in a child process: the
+fluid simulator gets its scenes on its input and its picture is read
+back, centred in the terminal; chaos gets its data files from the
+program itself and its keys from the launcher, which turns the object,
+and its curses picture is drawn centred. The launcher plays the scenes
+and objects in turn, quits on any key and puts the terminal back.
+PATCHES.md lists every change. The launcher and the rest of this
+packaging are copyright (c) 2026 Asciiverse and, as adaptations of the
+entries, are licensed under CC BY-SA 4.0 as well.
+
+This packaging is not made or endorsed by the IOCCC, its judges or the
+entries' authors.
